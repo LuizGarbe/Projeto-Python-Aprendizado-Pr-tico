@@ -1,39 +1,39 @@
-🐍 Projeto Python: Práticas de Programação
-Este repositório foi desenvolvido para organizar e documentar meus estudos práticos em Python, abrangendo desde a manipulação básica de dados até conceitos iniciais de Orientação a Objetos.
+# 🐍 Projeto Python: Fundamentos e Práticas
 
-🗂️ Estrutura do Repositório
-Com base na organização do projeto, os módulos estão divididos da seguinte forma:
+Este repositório reúne meus estudos práticos sobre a linguagem Python. O objetivo é organizar o aprendizado de lógica, estruturas de dados e organização de código.
 
-🛠️ Funcionalidades Principais
-validar dados/: Scripts focados em garantir a integridade das entradas do usuário e tratamento de exceções (try/except).
+---
 
-comoFuncionsListas/: Exercícios práticos sobre criação, fatiamento (slicing) e métodos de manipulação de listas.
+## 🗂️ Estrutura do Projeto
 
-teste_de_OO/: Introdução à Orientação a Objetos, explorando a criação de classes e instanciamento de objetos.
+O projeto está organizado em pastas temáticas para facilitar o estudo:
 
-testes/: Pasta dedicada a scripts de experimentação e validação de lógica isolada.
+* **`validar dados/`**: Scripts focados em garantir a integridade das entradas e tratamento de erros.
+* **`comoFuncionsListas/`**: Práticas sobre manipulação, métodos e lógica de listas.
+* **`teste_de_OO/`**: Primeiros passos com Orientação a Objetos (Classes e Métodos).
+* **`testes/`**: Ambiente para experimentação e validação de pequenos trechos de código.
+* **`python2/`**: Evolução de scripts e lógica de programação.
 
-📜 Arquivos de Execução
-principal.py: O script central que integra as funcionalidades aprendidas.
+### 📜 Arquivos Principais
+* `principal.py`: Ponto central de execução do projeto.
+* `inicial.py` / `segundo.py`: Scripts base de evolução do aprendizado.
+* `palavras.txt`: Arquivo utilizado para exercícios de leitura e extração de dados.
 
-inicial.py / segundo.py: Scripts de evolução lógica e fluxos de execução.
+---
 
-palavras.txt: Base de dados em texto utilizada para exercícios de leitura e extração de informações.
+## 🚀 Conceitos Aplicados
 
-🚀 O que este projeto exercita
-Validação de Dados: Garantir que o programa não quebre ao receber tipos de dados inesperados.
+1.  **Validação**: Uso de `try/except` para tratar erros de entrada.
+2.  **Listas**: Manipulação dinâmica de coleções de dados.
+3.  **IO (Input/Output)**: Leitura e extração de informações de arquivos de texto.
+4.  **OO**: Estruturação de código utilizando classes.
 
-Manipulação de Coleções: Uso eficiente de listas e dicionários para organizar informações.
+---
 
-Leitura de Arquivos: Extração de dados a partir de arquivos externos (.txt).
+## 🛠️ Como rodar o projeto
 
-Lógica OO: Organização de código seguindo os pilares da programação orientada a objetos.
-
-🛠️ Como utilizar
-Certifique-se de ter o Python 3.x instalado.
-
-Execute o script principal:
-
-Bash
-python principal.py
-Explore as pastas de módulos para ver exemplos específicos de cada funcionalidade.
+1. Tenha o Python instalado na sua máquina.
+2. Clone o repositório ou baixe os arquivos.
+3. No terminal, execute o comando:
+   ```bash
+   python principal.py
